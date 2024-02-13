@@ -45,7 +45,7 @@ fill_values :: proc() {
 }
 
 print_metadata :: proc() {
-	fmt.println("BENCHMARK START")
+	fmt.println("THIRD BENCHMARK START WITH SSE")
 	fmt.printf("RAM USED: %v MB\n", math.ceil_f64(size_of(state) / 1024.0 / 1024.0))
 	fmt.printf("ELEMENTS COUNT: %v\n\n", len(state.xs))
 }
